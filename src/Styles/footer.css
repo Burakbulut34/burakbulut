@@ -1,0 +1,121 @@
+.footer {
+  padding: 40px 0;
+  background-color: rgb(17, 16, 16);
+  text-align: center;
+  color: black;
+}
+
+.footer-sections {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px; /* Maksimum genişlik ekleyerek daha iyi bir görünüm sağlıyoruz */
+  color: white;
+  
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.footer-section ul li a:hover{
+  text-decoration: underline;
+}
+.newsletter {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px; /* Maksimum genişlik ekleyerek daha iyi bir görünüm sağlıyoruz */
+}
+
+.newsletter input {
+  padding: 10px;
+  margin-right: 10px; 
+  border-radius: 15px;
+  border: 3px solid black;
+}
+.newsletter h4, p{
+  color:white;
+}
+
+.newsletter button {
+  width: 90px;
+  height: 50px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  margin-right: -10px;
+}
+.newsletter button:hover{
+  background-color: #6ab0fc;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #e9ecef;
+  padding-top: 20px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons i {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-sections {
+      flex-direction: column; /* Dikey hizalama */
+      align-items: center; /* Ortaya hizalama */
+  }
+
+  .footer-section,
+  .newsletter {
+      max-width: 100%; /* Tam genişlik */
+      margin-bottom: 20px; /* Alt boşluk ekleyerek aralarındaki mesafeyi artırıyoruz */
+  }
+
+  .newsletter input {
+      margin-right: 0; /* Sağ boşluğu kaldırıyoruz */
+      margin-bottom: 10px; /* Alt boşluk ekliyoruz */
+      width: 95%; /* Tam genişlik */
+  }
+
+  .newsletter button {
+      width: 100%; /* Tam genişlik */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-section h4 {
+      font-size: 18px; /* Başlık boyutunu küçültüyoruz */
+  }
+
+  .social-icons i {
+      font-size: 18px; /* Sosyal ikon boyutunu küçültüyoruz */
+  }
+}
