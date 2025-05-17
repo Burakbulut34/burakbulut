@@ -37,8 +37,6 @@ const Footer = () =>{
       <div className="footer-bottom">
         <p>© {currentYear} Burak Bulut. Her hakkı saklıdır.</p>
         <div className="social-icons">
-          <i className="fab fa-instagram"></i>
-          <i className="fab fa-facebook"></i>
         </div>
       </div>
     </footer>
