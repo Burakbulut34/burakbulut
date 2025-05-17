@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Burakbulut34/static/css/main.1f0b06a5.css",
+    "main.js": "/Burakbulut34/static/js/main.24962c82.js",
+    "static/media/remixicon.svg?t=1734404658139": "/Burakbulut34/static/media/remixicon.df9902a6df13645438e1.svg",
+    "static/media/remixicon.eot?t=1734404658139": "/Burakbulut34/static/media/remixicon.29066d810a74e994be27.eot",
+    "static/media/remixicon.ttf?t=1734404658139": "/Burakbulut34/static/media/remixicon.868d1a768f4762dbcc3e.ttf",
+    "static/media/remixicon.woff?t=1734404658139": "/Burakbulut34/static/media/remixicon.ce82bb240fef24f93f95.woff",
+    "static/media/SpaceCity2.jpeg": "/Burakbulut34/static/media/SpaceCity2.31b6c267a591f0420be8.jpeg",
+    "static/media/remixicon.woff2?t=1734404658139": "/Burakbulut34/static/media/remixicon.bb211d855a1864aa5b67.woff2",
+    "static/media/SpaceCity3.jpeg": "/Burakbulut34/static/media/SpaceCity3.d8806c273afae2449d4a.jpeg",
+    "static/media/SpaceCity1.jpg": "/Burakbulut34/static/media/SpaceCity1.14a2dcbf80e8af540f12.jpg",
+    "static/media/kloxyn.jpg": "/Burakbulut34/static/media/kloxyn.fb66aa8b6763ce78650f.jpg",
+    "static/media/slick.svg": "/Burakbulut34/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Burakbulut34/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Burakbulut34/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Burakbulut34/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Burakbulut34/index.html",
+    "main.1f0b06a5.css.map": "/Burakbulut34/static/css/main.1f0b06a5.css.map",
+    "main.24962c82.js.map": "/Burakbulut34/static/js/main.24962c82.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f0b06a5.css",
+    "static/js/main.24962c82.js"
+  ]
+}
